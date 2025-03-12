@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/hubei.js"></script>
+
+
+    <style>
+        html, body {
+            height: 100%;  /* 设置页面高度为100% */
+            margin: 0;     /* 去除默认边距 */
+            padding: 0;    /* 去除默认内边距 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #002D4A;
+        }
+        #main {
+            width: 1300px;    /* 使图表宽度占据父容器的100% */
+            height: 800px;   /* 使图表高度占据父容器的100% */
+            margin: 0;      /* 去掉默认的空白 */
+            padding: 0;     /* 去掉默认的内边距 */
+        }
+    </style>
+</head>
+<body >
+    <div id="e62a5426095f46ffa7f00061c8597b15" class="chart-container" style="width:1380px; height:780px; "></div>
+    <script>
+        var chart_e62a5426095f46ffa7f00061c8597b15 = echarts.init(
+            document.getElementById('e62a5426095f46ffa7f00061c8597b15'), 'white', {renderer: 'canvas'});
+        var option_e62a5426095f46ffa7f00061c8597b15 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "\u4eba\u53e3\u6570",
+            "label": {
+                "show": true,
+                "position": "top",
+                "color": "#FFFFFF",
+                "margin": 8,
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "valueAnimation": false
+            },
+            "map": "\u6e56\u5317",
+            "data": [
+                {
+                    "name": "\u6b66\u6c49\u5e02",
+                    "value": 1121
+                },
+                {
+                    "name": "\u9ec4\u77f3\u5e02",
+                    "value": 250
+                },
+                {
+                    "name": "\u5341\u5830\u5e02",
+                    "value": 350
+                },
+                {
+                    "name": "\u5b9c\u660c\u5e02",
+                    "value": 400
+                },
+                {
+                    "name": "\u8944\u9633\u5e02",
+                    "value": 470
+                },
+                {
+                    "name": "\u9102\u5dde\u5e02",
+                    "value": 200
+                },
+                {
+                    "name": "\u8346\u95e8\u5e02",
+                    "value": 240
+                },
+                {
+                    "name": "\u5b5d\u611f\u5e02",
+                    "value": 220
+                },
+                {
+                    "name": "\u8346\u5dde\u5e02",
+                    "value": 530
+                },
+                {
+                    "name": "\u9ec4\u5188\u5e02",
+                    "value": 460
+                },
+                {
+                    "name": "\u54b8\u5b81\u5e02",
+                    "value": 440
+                },
+                {
+                    "name": "\u968f\u5dde\u5e02",
+                    "value": 200
+                },
+                {
+                    "name": "\u6069\u65bd\u571f\u5bb6\u65cf\u82d7\u65cf\u81ea\u6cbb\u5dde",
+                    "value": 250
+                },
+                {
+                    "name": "\u4ed9\u6843\u5e02",
+                    "value": 180
+                },
+                {
+                    "name": "\u6f5c\u6c5f\u5e02",
+                    "value": 180
+                },
+                {
+                    "name": "\u5929\u95e8\u5e02",
+                    "value": 150
+                },
+                {
+                    "name": "\u795e\u519c\u67b6\u6797\u533a",
+                    "value": 10
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1.25,
+            "zlevel": 0,
+            "z": 2,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {},
+            "xAxisIndex": 0,
+            "yAxisIndex": 0
+        },
+        {
+            "type": "effectScatter",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u6b66\u6c49",
+                    "value": [
+                        114.31,
+                        30.52,
+                        55
+                    ]
+                },
+                {
+                    "name": "\u5b9c\u660c",
+                    "value": [
+                        111.3,
+                        30.7,
+                        66
+                    ]
+                },
+                {
+                    "name": "\u8944\u9633",
+                    "value": [
+                        112.2,
+                        32.08,
+                        77
+                    ]
+                },
+                {
+                    "name": "\u8346\u5dde",
+                    "value": [
+                        112.239741,
+                        30.335165,
+                        88
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "margin": 8,
+                "valueAnimation": false
+            },
+            "xAxisIndex": 1,
+            "yAxisIndex": 1
+        },
+        {
+            "type": "lines",
+            "name": "geo",
+            "coordinateSystem": "geo",
+            "zlevel": 3,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "yellow",
+                "symbol": "arrow",
+                "symbolSize": 10
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u6b66\u6c49->\u5b9c\u660c",
+                    "coords": [
+                        [
+                            114.31,
+                            30.52
+                        ],
+                        [
+                            111.3,
+                            30.7
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u6b66\u6c49->\u8944\u9633",
+                    "coords": [
+                        [
+                            114.31,
+                            30.52
+                        ],
+                        [
+                            112.2,
+                            32.08
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u6b66\u6c49->\u8346\u5dde",
+                    "coords": [
+                        [
+                            114.31,
+                            30.52
+                        ],
+                        [
+                            112.239741,
+                            30.335165
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u8944\u9633->\u8346\u5dde",
+                    "coords": [
+                        [
+                            112.2,
+                            32.08
+                        ],
+                        [
+                            112.239741,
+                            30.335165
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 8,
+                "opacity": 1,
+                "curveness": 0.2,
+                "type": "solid",
+                "color": "yellow"
+            },
+            "label": {
+                "show": false,
+                "margin": 8,
+                "valueAnimation": false
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "xAxisIndex": 1,
+            "yAxisIndex": 1
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4eba\u53e3\u6570"
+            ],
+            "selected": {},
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        },
+        {
+            "data": [
+                "",
+                "geo"
+            ],
+            "selected": {},
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        },
+        {
+            "show": true,
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "visualMap": [
+        {
+            "show": false,
+            "type": "piecewise",
+            "min": 100,
+            "max": 1200,
+            "inRange": {
+                "color": [
+                    "#50a3ba",
+                    "#eac763",
+                    "#d94e5d"
+                ]
+            },
+            "calculable": true,
+            "inverse": false,
+            "splitNumber": 5,
+            "hoverLink": true,
+            "orient": "vertical",
+            "padding": 5,
+            "showLabel": true,
+            "itemWidth": 20,
+            "itemHeight": 14,
+            "borderWidth": 0,
+            "pieces": [
+                {
+                    "min": 1000,
+                    "color": "#2193b0"
+                },
+                {
+                    "min": 500,
+                    "max": 999,
+                    "color": "#4d8cc7"
+                },
+                {
+                    "min": 200,
+                    "max": 499,
+                    "color": "#72a4d3"
+                },
+                {
+                    "min": 100,
+                    "max": 199,
+                    "color": "#94c1e2"
+                },
+                {
+                    "max": 99,
+                    "color": "#6dd5ed"
+                }
+            ]
+        }
+    ],
+    "grid": [
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "shadowOffsetX": 0,
+            "shadowOffsetY": 0
+        },
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "shadowOffsetX": 0,
+            "shadowOffsetY": 0
+        }
+    ],
+    "geo": {
+        "map": "\u6e56\u5317",
+        "zoom": 1.25,
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "emphasis": {}
+    }
+};
+        chart_e62a5426095f46ffa7f00061c8597b15.setOption(option_e62a5426095f46ffa7f00061c8597b15);
+            chart_e62a5426095f46ffa7f00061c8597b15.on('click', function (param) {
+                var selected = param.name;
+                if (selected) {
+                    switch (selected) {
+                        case '武汉市':
+                            // 清屏操作
+                            document.body.innerHTML = '';
+                            location.href = "./map_wuhan.html";
+                            break;
+                        case '宜昌市':
+                            document.body.innerHTML = '';
+                            location.href = "./map_yichang.html";
+                            break;
+ 
+                        default:
+                            break;
+                    }
+
+            }
+      });
+    </script>
+</body>
+</html>

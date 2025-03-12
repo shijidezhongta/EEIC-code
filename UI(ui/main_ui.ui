@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ui_main</class>
+ <widget class="QWidget" name="ui_main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1485</width>
+    <height>1104</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">Qwidget{
+  background:#0F192A;
+  border-radius: 15px;  /* 设置圆角 */
+}
+
+#ui_main{
+  background-color: #0F192A
+}
+
+QPushButton {
+    background-color: transparent;  /* 按钮背景为较深的蓝色 */
+	background: none;
+	padding: 2px 5px;
+	margin:0;
+    color: white;  /* 按钮文字颜色为白色 */
+    border: none;  /* 设置细白色边框，并带有一定透明度 */
+    border-radius: 12px;  /* 圆角按钮 */
+    padding: 10px 20px;  /* 设置按钮内边距，增加按钮的大小 */
+    font-size: 16px;  /* 设置字体大小 */
+    font-weight: bold;  /* 设置字体加粗 */
+    transition: background-color 0.3s ease, transform 0.1s ease;  /* 按钮过渡效果 */
+    font-family: &quot;宋体&quot;; 
+    font-size: 28px;    /* 可以根据需要调整大小 */
+    color: #fff;       /* 设置字体颜色为白色 */
+    font-weight: bold;  /* 设置加粗 */
+}
+
+QPushButton:hover {
+    background-color: #4A90E2;  /* 鼠标悬停时，按钮背景色变为亮蓝色 */
+    transform: scale(1.05);  /* 悬停时按钮稍微放大 */
+}
+
+QPushButton:pressed {
+    background-color: #2A3B4E;  /* 按钮被按下时背景色变为稍暗的蓝色 */
+    transform: scale(0.95);  /* 按钮按下时稍微缩小 */
+}
+
+
+</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="centralwidget" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="left_menu_cont_frame" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>220</width>
+          <height>1505</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#left_menu_cont_frame{
+  background:#2f4858;
+  border-radius: 15px;  /* 设置圆角 */
+}</string>
+        </property>
+        <layout class="QVBoxLayout" name="leftMenuContainer_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item alignment="Qt::AlignLeft|Qt::AlignTop">
+          <widget class="QWidget" name="widget" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>80</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QPushButton" name="open_close_side_bar_btn">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="../../2024-2025电创/代码/目前进度/icons/gpt.qrc">
+                <normaloff>:/GPT/account_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/GPT/account_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>48</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>70</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignLeft">
+          <widget class="QWidget" name="widget_3" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>220</width>
+             <height>300</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <property name="spacing">
+             <number>5</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QPushButton" name="pushButton_page1">
+              <property name="text">
+               <string> 主控制台</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../../2024-2025电创/代码/目前进度/icons/gpt.qrc">
+                <normaloff>:/GPT/home_24dp_FFFFFF.svg</normaloff>:/GPT/home_24dp_FFFFFF.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>48</width>
+                <height>48</height>
+               </size>
+              </property>
+              <property name="checkable">
+               <bool>true</bool>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+              <property name="autoRepeat">
+               <bool>false</bool>
+              </property>
+              <property name="autoExclusive">
+               <bool>true</bool>
+              </property>
+              <property name="default">
+               <bool>true</bool>
+              </property>
+              <property name="flat">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_page2">
+              <property name="text">
+               <string> 结果显示</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../../2024-2025电创/代码/目前进度/icons/gpt.qrc">
+                <normaloff>:/GPT/explore_24dp_FFFFFF.svg</normaloff>:/GPT/explore_24dp_FFFFFF.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>48</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item alignment="Qt::AlignLeft">
+             <widget class="QPushButton" name="pushButton">
+              <property name="text">
+               <string> GPT</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../../2024-2025电创/代码/目前进度/icons/gpt.qrc">
+                <normaloff>:/GPT/question_answer_24dp_FFFFFF.svg</normaloff>:/GPT/question_answer_24dp_FFFFFF.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>48</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>700</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="mainBodyContainer" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>500</width>
+          <height>400</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../2024-2025电创/代码/目前进度/icons/gpt.qrc"/>
+ </resources>
+ <connections/>
+</ui>

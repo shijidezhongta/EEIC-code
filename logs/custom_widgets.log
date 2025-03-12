@@ -1,0 +1,617 @@
+2024-11-22 16:08:13,820 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 16:08:13,821 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 16:08:13,823 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 16:14:31,146 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 16:14:31,146 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 16:14:31,148 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 16:17:40,892 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 16:17:40,892 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 16:17:40,894 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 16:36:30,966 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 16:36:30,969 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 16:36:30,971 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 16:38:44,806 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 16:38:44,806 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 16:38:44,808 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 17:22:53,295 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 17:22:53,296 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 17:22:53,297 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 17:23:16,486 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 17:23:16,486 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 17:23:16,488 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 17:24:05,505 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 17:24:05,505 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 17:24:05,508 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 17:28:53,342 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 17:28:53,342 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 17:29:23,925 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 17:29:23,925 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 17:31:49,929 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 17:31:49,930 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 17:33:55,881 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 17:33:55,881 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 18:19:48,841 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 18:19:48,842 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 18:20:26,219 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 18:20:26,219 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 18:26:23,990 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 18:26:23,991 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 18:30:07,282 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 18:30:07,282 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 18:32:22,682 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 18:32:22,682 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 18:35:03,152 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 18:35:03,152 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 18:35:35,790 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 18:35:35,791 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 18:36:10,025 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 18:36:10,025 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 18:36:23,802 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 18:36:23,802 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 18:38:41,209 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 18:38:41,210 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 18:38:56,962 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-22 18:38:56,964 - DEBUG - load_verify_locations cafile='d:\\anaconda\\lib\\site-packages\\certifi\\cacert.pem'
+2024-11-22 18:38:56,971 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-22 18:38:56,971 - DEBUG - load_verify_locations cafile='d:\\anaconda\\lib\\site-packages\\certifi\\cacert.pem'
+2024-11-22 18:38:56,978 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-22 18:38:56,978 - DEBUG - load_verify_locations cafile='d:\\anaconda\\lib\\site-packages\\certifi\\cacert.pem'
+2024-11-22 18:38:56,999 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are an AI assistant that provides insights on energy storage optimization. Use technical terms accurately and ensure responses are concise.'}, {'role': 'user', 'content': '你好'}], 'model': 'gpt-3.5', 'max_tokens': 150, 'temperature': 0.3, 'top_p': 1}}
+2024-11-22 18:38:57,001 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-11-22 18:38:57,003 - DEBUG - connect_tcp.started host='127.0.0.1' port=7890 local_address=None timeout=5.0 socket_options=None
+2024-11-22 18:38:59,043 - DEBUG - connect_tcp.failed exception=ConnectError(ConnectionRefusedError(10061, '由于目标计算机积极拒绝，无法连接。', None, 10061, None))
+2024-11-22 18:38:59,047 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "d:\anaconda\lib\site-packages\httpx\_transports\default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "d:\anaconda\lib\site-packages\httpx\_transports\default.py", line 236, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\http_proxy.py", line 289, in handle_request
+    connect_response = self._connection.handle_request(
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\connection.py", line 99, in handle_request
+    raise exc
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\connection.py", line 76, in handle_request
+    stream = self._connect(request)
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\connection.py", line 122, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "d:\anaconda\lib\site-packages\httpcore\_backends\sync.py", line 213, in connect_tcp
+    sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
+  File "d:\anaconda\lib\contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "d:\anaconda\lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\anaconda\lib\site-packages\openai\_base_client.py", line 991, in _request
+    response = self._client.send(
+  File "d:\anaconda\lib\site-packages\httpx\_client.py", line 926, in send
+    response = self._send_handling_auth(
+  File "d:\anaconda\lib\site-packages\httpx\_client.py", line 954, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "d:\anaconda\lib\site-packages\httpx\_client.py", line 991, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "d:\anaconda\lib\site-packages\httpx\_client.py", line 1027, in _send_single_request
+    response = transport.handle_request(request)
+  File "d:\anaconda\lib\site-packages\httpx\_transports\default.py", line 236, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\anaconda\lib\contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "d:\anaconda\lib\site-packages\httpx\_transports\default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-11-22 18:38:59,048 - DEBUG - 2 retries left
+2024-11-22 18:38:59,048 - INFO - Retrying request to /chat/completions in 0.474425 seconds
+2024-11-22 18:38:59,528 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are an AI assistant that provides insights on energy storage optimization. Use technical terms accurately and ensure responses are concise.'}, {'role': 'user', 'content': '你好'}], 'model': 'gpt-3.5', 'max_tokens': 150, 'temperature': 0.3, 'top_p': 1}}
+2024-11-22 18:38:59,531 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-11-22 18:38:59,532 - DEBUG - connect_tcp.started host='127.0.0.1' port=7890 local_address=None timeout=5.0 socket_options=None
+2024-11-22 18:39:01,559 - DEBUG - connect_tcp.failed exception=ConnectError(ConnectionRefusedError(10061, '由于目标计算机积极拒绝，无法连接。', None, 10061, None))
+2024-11-22 18:39:01,560 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "d:\anaconda\lib\site-packages\httpx\_transports\default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "d:\anaconda\lib\site-packages\httpx\_transports\default.py", line 236, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\http_proxy.py", line 289, in handle_request
+    connect_response = self._connection.handle_request(
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\connection.py", line 99, in handle_request
+    raise exc
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\connection.py", line 76, in handle_request
+    stream = self._connect(request)
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\connection.py", line 122, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "d:\anaconda\lib\site-packages\httpcore\_backends\sync.py", line 213, in connect_tcp
+    sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
+  File "d:\anaconda\lib\contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "d:\anaconda\lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\anaconda\lib\site-packages\openai\_base_client.py", line 991, in _request
+    response = self._client.send(
+  File "d:\anaconda\lib\site-packages\httpx\_client.py", line 926, in send
+    response = self._send_handling_auth(
+  File "d:\anaconda\lib\site-packages\httpx\_client.py", line 954, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "d:\anaconda\lib\site-packages\httpx\_client.py", line 991, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "d:\anaconda\lib\site-packages\httpx\_client.py", line 1027, in _send_single_request
+    response = transport.handle_request(request)
+  File "d:\anaconda\lib\site-packages\httpx\_transports\default.py", line 236, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\anaconda\lib\contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "d:\anaconda\lib\site-packages\httpx\_transports\default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-11-22 18:39:01,563 - DEBUG - 1 retry left
+2024-11-22 18:39:01,563 - INFO - Retrying request to /chat/completions in 0.871531 seconds
+2024-11-22 18:39:02,435 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are an AI assistant that provides insights on energy storage optimization. Use technical terms accurately and ensure responses are concise.'}, {'role': 'user', 'content': '你好'}], 'model': 'gpt-3.5', 'max_tokens': 150, 'temperature': 0.3, 'top_p': 1}}
+2024-11-22 18:39:02,436 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-11-22 18:39:02,436 - DEBUG - connect_tcp.started host='127.0.0.1' port=7890 local_address=None timeout=5.0 socket_options=None
+2024-11-22 18:39:04,479 - DEBUG - connect_tcp.failed exception=ConnectError(ConnectionRefusedError(10061, '由于目标计算机积极拒绝，无法连接。', None, 10061, None))
+2024-11-22 18:39:04,480 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "d:\anaconda\lib\site-packages\httpx\_transports\default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "d:\anaconda\lib\site-packages\httpx\_transports\default.py", line 236, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\http_proxy.py", line 289, in handle_request
+    connect_response = self._connection.handle_request(
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\connection.py", line 99, in handle_request
+    raise exc
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\connection.py", line 76, in handle_request
+    stream = self._connect(request)
+  File "d:\anaconda\lib\site-packages\httpcore\_sync\connection.py", line 122, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "d:\anaconda\lib\site-packages\httpcore\_backends\sync.py", line 213, in connect_tcp
+    sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
+  File "d:\anaconda\lib\contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "d:\anaconda\lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\anaconda\lib\site-packages\openai\_base_client.py", line 991, in _request
+    response = self._client.send(
+  File "d:\anaconda\lib\site-packages\httpx\_client.py", line 926, in send
+    response = self._send_handling_auth(
+  File "d:\anaconda\lib\site-packages\httpx\_client.py", line 954, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "d:\anaconda\lib\site-packages\httpx\_client.py", line 991, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "d:\anaconda\lib\site-packages\httpx\_client.py", line 1027, in _send_single_request
+    response = transport.handle_request(request)
+  File "d:\anaconda\lib\site-packages\httpx\_transports\default.py", line 236, in handle_request
+    resp = self._pool.handle_request(req)
+  File "d:\anaconda\lib\contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "d:\anaconda\lib\site-packages\httpx\_transports\default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-11-22 18:39:04,486 - DEBUG - Raising connection error
+2024-11-22 18:39:53,937 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 18:39:53,937 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 18:41:07,314 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 18:41:07,314 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 18:43:16,066 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 18:43:16,066 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 18:43:41,194 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 18:43:41,195 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:01:16,574 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:01:16,575 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:02:12,178 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:02:12,179 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:02:54,629 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:02:54,630 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:03:15,166 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:03:15,168 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:05:28,012 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:05:28,013 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:05:58,632 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:05:58,632 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:22:39,787 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:22:39,789 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:27:58,653 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:27:58,654 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:42:06,746 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:42:06,747 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:42:48,944 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:42:48,944 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:44:02,648 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:44:02,648 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:44:06,750 - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2024-11-22 19:44:06,751 - DEBUG - findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,751 - DEBUG - findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2024-11-22 19:44:06,751 - DEBUG - findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,751 - DEBUG - findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+2024-11-22 19:44:06,751 - DEBUG - findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,751 - DEBUG - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,751 - DEBUG - findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,751 - DEBUG - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,752 - DEBUG - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2024-11-22 19:44:06,753 - DEBUG - findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,753 - DEBUG - findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,753 - DEBUG - findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,753 - DEBUG - findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,753 - DEBUG - findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,753 - DEBUG - findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'Arial' (arialbd.ttf) normal normal 700 normal>) = 6.698636363636363
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'Segoe MDL2 Assets' (segmdl2.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'Segoe Print' (segoeprb.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'Cambria' (cambriai.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'Georgia' (georgiab.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'Arial' (ariblk.ttf) normal normal 900 normal>) = 6.888636363636364
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'ScriptC' (scriptc_.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'Verdana' (verdanab.ttf) normal normal 700 normal>) = 3.9713636363636367
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'Trebuchet MS' (trebucbi.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'Segoe UI' (seguisbi.ttf) italic normal 600 normal>) = 11.24
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'Segoe UI' (seguibli.ttf) italic normal 900 normal>) = 11.525
+2024-11-22 19:44:06,754 - DEBUG - findfont: score(<Font 'GothicG' (gothicg_.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,755 - DEBUG - findfont: score(<Font 'Segoe UI' (segoeuiz.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,755 - DEBUG - findfont: score(<Font 'Bookman Old Style' (BOOKOSB.TTF) normal normal 600 normal>) = 10.24
+2024-11-22 19:44:06,755 - DEBUG - findfont: score(<Font 'AIGDT' (AIGDT___.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,755 - DEBUG - findfont: score(<Font 'Dubai' (DUBAI-REGULAR.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,755 - DEBUG - findfont: score(<Font 'Wingdings' (wingding.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,755 - DEBUG - findfont: score(<Font 'Cambria' (cambria.ttc) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,755 - DEBUG - findfont: score(<Font 'STHupo' (STHUPO.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,755 - DEBUG - findfont: score(<Font 'Font Awesome 5 Free Solid' (fontawesome5-solid-webfont.ttf) normal normal 900 normal>) = 10.525
+2024-11-22 19:44:06,755 - DEBUG - findfont: score(<Font 'Swis721 Cn BT' (swisscb.ttf) normal normal 700 condensed>) = 10.535
+2024-11-22 19:44:06,755 - DEBUG - findfont: score(<Font 'Comic Sans MS' (comicbd.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,756 - DEBUG - findfont: score(<Font 'Tahoma' (tahomabd.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,756 - DEBUG - findfont: score(<Font 'Arial' (arialbi.ttf) italic normal 700 normal>) = 7.698636363636363
+2024-11-22 19:44:06,756 - DEBUG - findfont: score(<Font 'Garamond' (GARA.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,756 - DEBUG - findfont: score(<Font 'Freestyle Script' (FREESCPT.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,756 - DEBUG - findfont: score(<Font 'DengXian' (Deng.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,756 - DEBUG - findfont: score(<Font 'Century Gothic' (GOTHICB.TTF) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,756 - DEBUG - findfont: score(<Font 'SansSerif' (sanss___.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,756 - DEBUG - findfont: score(<Font 'Leelawadee UI' (LeelaUIb.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,756 - DEBUG - findfont: score(<Font 'elusiveicons' (elusiveicons-webfont.ttf) normal normal 500 normal>) = 10.145
+2024-11-22 19:44:06,756 - DEBUG - findfont: score(<Font 'Mongolian Baiti' (monbaiti.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,756 - DEBUG - findfont: score(<Font 'Dubai' (DUBAI-MEDIUM.TTF) normal normal 500 normal>) = 10.145
+2024-11-22 19:44:06,756 - DEBUG - findfont: score(<Font 'Swis721 BlkCn BT' (swisscki.ttf) italic normal 400 condensed>) = 11.25
+2024-11-22 19:44:06,756 - DEBUG - findfont: score(<Font 'ISOCTEUR' (isocteur.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,756 - DEBUG - findfont: score(<Font 'Calibri' (calibrii.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,757 - DEBUG - findfont: score(<Font 'Lucida Console' (lucon.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,757 - DEBUG - findfont: score(<Font 'Txt' (txt_____.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,757 - DEBUG - findfont: score(<Font 'Sans Serif Collection' (SansSerifCollection.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,757 - DEBUG - findfont: score(<Font 'Candara' (Candaraz.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,757 - DEBUG - findfont: score(<Font 'Javanese Text' (javatext.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,757 - DEBUG - findfont: score(<Font 'Book Antiqua' (ANTQUABI.TTF) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,757 - DEBUG - findfont: score(<Font 'Swis721 BT' (swissb.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,757 - DEBUG - findfont: score(<Font 'RomanC' (romanc__.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,757 - DEBUG - findfont: score(<Font 'Franklin Gothic Medium' (framd.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,757 - DEBUG - findfont: score(<Font 'Georgia' (georgiaz.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,757 - DEBUG - findfont: score(<Font 'TechnicLite' (techl___.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,757 - DEBUG - findfont: score(<Font 'Yu Gothic' (YuGothL.ttc) normal normal 300 normal>) = 10.145
+2024-11-22 19:44:06,757 - DEBUG - findfont: score(<Font 'GothicE' (gothice_.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,757 - DEBUG - findfont: score(<Font 'Vineta BT' (vinet.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,758 - DEBUG - findfont: score(<Font 'MT Extra' (MTEXTRA.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,758 - DEBUG - findfont: score(<Font 'Times New Roman' (timesbd.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,758 - DEBUG - findfont: score(<Font 'GreekC' (greekc__.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,758 - DEBUG - findfont: score(<Font 'Calibri' (calibril.ttf) normal normal 300 normal>) = 10.145
+2024-11-22 19:44:06,758 - DEBUG - findfont: score(<Font 'remixicon' (remixicon.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,758 - DEBUG - findfont: score(<Font 'Courier New' (cour.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,758 - DEBUG - findfont: score(<Font 'Romantic' (romai___.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,758 - DEBUG - findfont: score(<Font 'PanRoman' (panroman.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,758 - DEBUG - findfont: score(<Font 'Proxy 1' (mtproxy1.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,758 - DEBUG - findfont: score(<Font 'Stylus BT' (stylu.ttf) normal normal 300 normal>) = 10.145
+2024-11-22 19:44:06,758 - DEBUG - findfont: score(<Font 'AcadEref' (AcadEref.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,758 - DEBUG - findfont: score(<Font 'Candara' (Candarab.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,758 - DEBUG - findfont: score(<Font 'Segoe UI' (seguisli.ttf) italic normal 350 normal>) = 11.0975
+2024-11-22 19:44:06,759 - DEBUG - findfont: score(<Font 'Bahnschrift' (bahnschrift.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,759 - DEBUG - findfont: score(<Font 'Microsoft YaHei' (msyhbd.ttc) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,759 - DEBUG - findfont: score(<Font 'Microsoft Himalaya' (himalaya.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,759 - DEBUG - findfont: score(<Font 'SimSun' (simsun.ttc) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,759 - DEBUG - findfont: score(<Font 'Leelawadee UI' (LeelawUI.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,759 - DEBUG - findfont: score(<Font 'Microsoft Sans Serif' (micross.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,759 - DEBUG - findfont: score(<Font 'Tahoma' (tahoma.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,759 - DEBUG - findfont: score(<Font 'MS Reference Sans Serif' (REFSAN.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,759 - DEBUG - findfont: score(<Font 'Swis721 LtCn BT' (swisscl.ttf) normal normal 400 condensed>) = 10.25
+2024-11-22 19:44:06,759 - DEBUG - findfont: score(<Font 'Ink Free' (Inkfree.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,759 - DEBUG - findfont: score(<Font 'Symeteo' (symeteo_.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,759 - DEBUG - findfont: score(<Font 'Gadugi' (gadugi.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,760 - DEBUG - findfont: score(<Font 'ISOCP3' (isocp3__.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,760 - DEBUG - findfont: score(<Font 'UniversalMath1 BT' (umath.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,760 - DEBUG - findfont: score(<Font 'FontAwesome' (fontawesome4.7-webfont.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,760 - DEBUG - findfont: score(<Font 'Calibri' (calibriz.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,760 - DEBUG - findfont: score(<Font 'Times New Roman' (timesi.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,760 - DEBUG - findfont: score(<Font 'Wingdings 2' (WINGDNG2.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,760 - DEBUG - findfont: score(<Font 'Syastro' (syastro_.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,760 - DEBUG - findfont: score(<Font 'MingLiU-ExtB' (mingliub.ttc) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,760 - DEBUG - findfont: score(<Font 'Material Design Icons' (materialdesignicons6-webfont.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,760 - DEBUG - findfont: score(<Font 'Garamond' (GARABD.TTF) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,760 - DEBUG - findfont: score(<Font 'Microsoft PhagsPa' (phagspab.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,760 - DEBUG - findfont: score(<Font 'GothicI' (gothici_.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,760 - DEBUG - findfont: score(<Font 'Calibri' (calibrib.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,760 - DEBUG - findfont: score(<Font 'Lucida Handwriting' (LHANDW.TTF) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,761 - DEBUG - findfont: score(<Font 'Swis721 BT' (swissbi.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,761 - DEBUG - findfont: score(<Font 'BankGothic Lt BT' (bgothl.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,761 - DEBUG - findfont: score(<Font 'Palatino Linotype' (palai.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,761 - DEBUG - findfont: score(<Font 'Material Design Icons 5.9.55' (materialdesignicons5-webfont.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,761 - DEBUG - findfont: score(<Font 'Proxy 5' (mtproxy5.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,761 - DEBUG - findfont: score(<Font 'Papyrus' (PAPYRUS.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,761 - DEBUG - findfont: score(<Font 'Georgia' (georgiai.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Microsoft Tai Le' (taileb.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Proxy 2' (mtproxy2.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'STCaiyun' (STCAIYUN.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Nirmala UI' (NirmalaB.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Candara' (Candarali.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Microsoft Yi Baiti' (msyi.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Microsoft YaHei' (msyhl.ttc) normal normal 290 normal>) = 10.1545
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Microsoft JhengHei' (msjhbd.ttc) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Comic Sans MS' (comic.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Corbel' (corbelli.ttf) italic normal 300 normal>) = 11.145
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Corbel' (corbell.ttf) normal normal 300 normal>) = 10.145
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Yu Gothic' (YuGothB.ttc) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Swis721 BlkCn BT' (swissck.ttf) normal normal 400 condensed>) = 10.25
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Italic' (italic__.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Symbol' (symbol.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Proxy 4' (mtproxy4.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Nirmala UI' (NirmalaS.ttf) normal normal 350 normal>) = 10.0975
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Segoe UI Symbol' (seguisym.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Swis721 Ex BT' (swisse.ttf) normal normal 400 expanded>) = 10.25
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'Segoe UI' (segoeuii.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,762 - DEBUG - findfont: score(<Font 'FangSong' (simfang.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,763 - DEBUG - findfont: score(<Font 'FZShuTi' (FZSTK.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,763 - DEBUG - findfont: score(<Font 'Book Antiqua' (ANTQUAI.TTF) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,763 - DEBUG - findfont: score(<Font 'Corbel' (corbelz.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,763 - DEBUG - findfont: score(<Font 'Times New Roman' (times.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,763 - DEBUG - findfont: score(<Font 'Mistral' (MISTRAL.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,763 - DEBUG - findfont: score(<Font 'GENISO' (GENISO.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,763 - DEBUG - findfont: score(<Font 'Courier New' (couri.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,763 - DEBUG - findfont: score(<Font 'Swis721 BlkEx BT' (swissek.ttf) normal normal 400 expanded>) = 10.25
+2024-11-22 19:44:06,763 - DEBUG - findfont: score(<Font 'DengXian' (Dengl.ttf) normal normal 300 normal>) = 10.145
+2024-11-22 19:44:06,764 - DEBUG - findfont: score(<Font 'STSong' (STSONG.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,764 - DEBUG - findfont: score(<Font 'Sitka' (SitkaVF-Italic.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,764 - DEBUG - findfont: score(<Font 'Proxy 3' (mtproxy3.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,764 - DEBUG - findfont: score(<Font 'French Script MT' (FRSCRIPT.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,764 - DEBUG - findfont: score(<Font 'Consolas' (consolai.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,764 - DEBUG - findfont: score(<Font 'Monospac821 BT' (monos.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,764 - DEBUG - findfont: score(<Font 'Arial' (arial.ttf) normal normal 400 normal>) = 6.413636363636363
+2024-11-22 19:44:06,764 - DEBUG - findfont: score(<Font 'Consolas' (consolab.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,764 - DEBUG - findfont: score(<Font 'Corbel' (corbelb.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,764 - DEBUG - findfont: score(<Font 'Book Antiqua' (BKANT.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,764 - DEBUG - findfont: score(<Font 'Segoe UI' (seguili.ttf) italic normal 300 normal>) = 11.145
+2024-11-22 19:44:06,764 - DEBUG - findfont: score(<Font 'Microsoft JhengHei' (msjh.ttc) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,764 - DEBUG - findfont: score(<Font 'CommercialPi BT' (compi.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,764 - DEBUG - findfont: score(<Font 'LiSu' (SIMLI.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'TechnicBold' (techb___.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'MS Reference Specialty' (REFSPCL.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'Swis721 Ex BT' (swisseb.ttf) normal normal 700 expanded>) = 10.535
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'Segoe Print' (segoepr.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'GreekS' (greeks__.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'Century Gothic' (GOTHICI.TTF) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'Swis721 BdOul BT' (swissbo.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'Palatino Linotype' (palab.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'BankGothic Md BT' (bgothm.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'EuroRoman' (eurro___.ttf) oblique normal 400 normal>) = 11.05
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'CommercialScript BT' (comsc.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'ItalicT' (italict_.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'Kristen ITC' (ITCKRIST.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'Monotxt' (monotxt_.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'STZhongsong' (STZHONGS.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,765 - DEBUG - findfont: score(<Font 'Segoe UI' (segoeuib.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,766 - DEBUG - findfont: score(<Font 'Webdings' (webdings.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,766 - DEBUG - findfont: score(<Font 'Arial' (ariali.ttf) italic normal 400 normal>) = 7.413636363636363
+2024-11-22 19:44:06,766 - DEBUG - findfont: score(<Font 'Complex' (complex_.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,766 - DEBUG - findfont: score(<Font 'Swis721 Lt BT' (swissl.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,766 - DEBUG - findfont: score(<Font 'Monospac821 BT' (monosb.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,766 - DEBUG - findfont: score(<Font 'SimHei' (simhei.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,766 - DEBUG - findfont: score(<Font 'HoloLens MDL2 Assets' (holomdl2.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,766 - DEBUG - findfont: score(<Font 'Ebrima' (ebrimabd.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,766 - DEBUG - findfont: score(<Font 'Book Antiqua' (ANTQUAB.TTF) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,766 - DEBUG - findfont: score(<Font 'Constantia' (constan.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,766 - DEBUG - findfont: score(<Font 'Constantia' (constanz.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,766 - DEBUG - findfont: score(<Font 'Romantic' (romantic.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,766 - DEBUG - findfont: score(<Font 'Simplex' (simplex_.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,766 - DEBUG - findfont: score(<Font 'STXihei' (STXIHEI.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,767 - DEBUG - findfont: score(<Font 'Segoe UI' (segoeuisl.ttf) normal normal 350 normal>) = 10.0975
+2024-11-22 19:44:06,767 - DEBUG - findfont: score(<Font 'Dubai' (DUBAI-LIGHT.TTF) normal normal 300 normal>) = 10.145
+2024-11-22 19:44:06,767 - DEBUG - findfont: score(<Font 'Bookman Old Style' (BOOKOSI.TTF) italic normal 300 normal>) = 11.145
+2024-11-22 19:44:06,767 - DEBUG - findfont: score(<Font 'Courier New' (courbi.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,767 - DEBUG - findfont: score(<Font 'Segoe UI' (seguibl.ttf) normal normal 900 normal>) = 10.525
+2024-11-22 19:44:06,767 - DEBUG - findfont: score(<Font 'Arial' (ARIALNB.TTF) normal normal 700 condensed>) = 6.8986363636363635
+2024-11-22 19:44:06,767 - DEBUG - findfont: score(<Font 'Juice ITC' (JUICE___.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,767 - DEBUG - findfont: score(<Font 'KaiTi' (simkai.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,767 - DEBUG - findfont: score(<Font 'Candara' (Candarai.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,767 - DEBUG - findfont: score(<Font 'Symusic' (symusic_.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,767 - DEBUG - findfont: score(<Font 'codicon' (codicon.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,767 - DEBUG - findfont: score(<Font 'Monospac821 BT' (monosbi.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,767 - DEBUG - findfont: score(<Font 'Consolas' (consola.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,767 - DEBUG - findfont: score(<Font 'Microsoft Tai Le' (taile.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,768 - DEBUG - findfont: score(<Font 'Microsoft JhengHei' (msjhl.ttc) normal normal 290 normal>) = 10.1545
+2024-11-22 19:44:06,768 - DEBUG - findfont: score(<Font 'STXingkai' (STXINGKA.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,768 - DEBUG - findfont: score(<Font 'Impact' (impact.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,768 - DEBUG - findfont: score(<Font 'Cambria' (cambriab.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,768 - DEBUG - findfont: score(<Font 'ScriptS' (scripts_.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,768 - DEBUG - findfont: score(<Font 'SansSerif' (sanssbo_.ttf) oblique normal 700 normal>) = 11.335
+2024-11-22 19:44:06,768 - DEBUG - findfont: score(<Font 'STFangsong' (STFANGSO.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,768 - DEBUG - findfont: score(<Font 'ItalicC' (italicc_.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,768 - DEBUG - findfont: score(<Font 'Swis721 Cn BT' (swissci.ttf) italic normal 400 condensed>) = 11.25
+2024-11-22 19:44:06,768 - DEBUG - findfont: score(<Font 'Dutch801 XBd BT' (dutcheb.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,768 - DEBUG - findfont: score(<Font 'SansSerif' (sanssb__.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,768 - DEBUG - findfont: score(<Font 'Malgun Gothic' (malgun.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,768 - DEBUG - findfont: score(<Font 'Sylfaen' (sylfaen.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,769 - DEBUG - findfont: score(<Font 'Calibri' (calibri.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,769 - DEBUG - findfont: score(<Font 'Yu Gothic' (YuGothR.ttc) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,769 - DEBUG - findfont: score(<Font 'Arial' (ARIALNI.TTF) italic normal 400 condensed>) = 7.613636363636363
+2024-11-22 19:44:06,769 - DEBUG - findfont: score(<Font 'Arial' (ARIALN.TTF) normal normal 400 condensed>) = 6.613636363636363
+2024-11-22 19:44:06,769 - DEBUG - findfont: score(<Font 'ISOCPEUR' (isocpeui.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,769 - DEBUG - findfont: score(<Font 'Nirmala UI' (Nirmala.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,769 - DEBUG - findfont: score(<Font 'Malgun Gothic' (malgunsl.ttf) normal normal 300 normal>) = 10.145
+2024-11-22 19:44:06,769 - DEBUG - findfont: score(<Font 'AMGDT' (AMGDT___.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,769 - DEBUG - findfont: score(<Font 'Segoe UI Emoji' (seguiemj.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,769 - DEBUG - findfont: score(<Font 'Proxy 8' (mtproxy8.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'Trebuchet MS' (trebuc.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'STLiti' (STLITI.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'RomanS' (romans__.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'Calibri' (calibrili.ttf) italic normal 300 normal>) = 11.145
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'Corbel' (corbel.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'RomanT' (romant__.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'Franklin Gothic Medium' (framdit.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'Leelawadee UI' (LeelUIsl.ttf) normal normal 350 normal>) = 10.0975
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'Swis721 BdCnOul BT' (swisscbo.ttf) normal normal 400 condensed>) = 10.25
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'Swis721 LtEx BT' (swissel.ttf) normal normal 400 expanded>) = 10.25
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'Swis721 Blk BT' (swisski.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'Sitka' (SitkaVF.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'Courier New' (courbd.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'RomanD' (romand__.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'Gabriola' (Gabriola.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'Swis721 Cn BT' (swissc.ttf) normal normal 400 condensed>) = 10.25
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'Romantic' (romab___.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'Times New Roman' (timesbi.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'Malgun Gothic' (malgunbd.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,770 - DEBUG - findfont: score(<Font 'SuperFrench' (supef___.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'CityBlueprint' (cityb___.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Swis721 BlkOul BT' (swissko.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Candara' (Candara.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'ISOCP2' (isocp2__.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Symap' (symap___.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Segoe UI Historic' (seguihis.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Corbel' (corbeli.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'ISOCT' (isoct___.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Constantia' (constanb.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Arial' (ARIALNBI.TTF) italic normal 700 condensed>) = 7.8986363636363635
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'STXinwei' (STXINWEI.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Font Awesome 5 Free Regular' (fontawesome5-regular-webfont.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Cambria' (cambriaz.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'ISOCT3' (isoct3__.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'SansSerif' (sansso__.ttf) oblique normal 400 normal>) = 11.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'YouYuan' (SIMYOU.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Microsoft YaHei' (msyh.ttc) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Tempus Sans ITC' (TEMPSITC.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Segoe UI' (segoeui.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'ISOCP' (isocp___.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'CountryBlueprint' (counb___.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Comic Sans MS' (comicz.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Swis721 BT' (swissi.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'MS Gothic' (msgothic.ttc) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Proxy 9' (mtproxy9.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Segoe UI Variable' (SegUIVar.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'AmdtSymbols' (AMDT_Symbols.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Segoe Fluent Icons' (SegoeIcons.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'ISOCTEUR' (isocteui.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'MV Boli' (mvboli.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Swis721 BT' (swiss.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'SimSun-ExtB' (simsunb.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Bookman Old Style' (BOOKOSBI.TTF) italic normal 600 normal>) = 11.24
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Segoe Script' (segoesc.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Bookman Old Style' (BOOKOS.TTF) normal normal 300 normal>) = 10.145
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Bookshelf Symbol 7' (BSSYM7.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Comic Sans MS' (comici.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'GDT' (gdt_____.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Microsoft New Tai Lue' (ntailu.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Swis721 Blk BT' (swissk.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,772 - DEBUG - findfont: score(<Font 'Segoe UI' (segoeuil.ttf) normal normal 300 normal>) = 10.145
+2024-11-22 19:44:06,775 - DEBUG - findfont: score(<Font 'Microsoft New Tai Lue' (ntailub.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,775 - DEBUG - findfont: score(<Font 'Dutch801 Rm BT' (dutchb.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,775 - DEBUG - findfont: score(<Font 'Symath' (symath__.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,775 - DEBUG - findfont: score(<Font 'Phosphor' (phosphor.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,775 - DEBUG - findfont: score(<Font 'Yu Gothic' (YuGothM.ttc) normal normal 500 normal>) = 10.145
+2024-11-22 19:44:06,775 - DEBUG - findfont: score(<Font 'Monotype Corsiva' (MTCORSVA.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,775 - DEBUG - findfont: score(<Font 'Verdana' (verdanaz.ttf) italic normal 700 normal>) = 4.971363636363637
+2024-11-22 19:44:06,775 - DEBUG - findfont: score(<Font 'Dubai' (DUBAI-BOLD.TTF) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,775 - DEBUG - findfont: score(<Font 'Swis721 LtCn BT' (swisscli.ttf) italic normal 400 condensed>) = 11.25
+2024-11-22 19:44:06,775 - DEBUG - findfont: score(<Font 'Myanmar Text' (mmrtextb.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,775 - DEBUG - findfont: score(<Font 'Swis721 Lt BT' (swissli.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,775 - DEBUG - findfont: score(<Font 'Dutch801 Rm BT' (dutch.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,775 - DEBUG - findfont: score(<Font 'Technic' (technic_.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,775 - DEBUG - findfont: score(<Font 'ISOCT2' (isoct2__.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,775 - DEBUG - findfont: score(<Font 'Palatino Linotype' (palabi.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,776 - DEBUG - findfont: score(<Font 'ISOCPEUR' (isocpeur.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,776 - DEBUG - findfont: score(<Font 'DengXian' (Dengb.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,776 - DEBUG - findfont: score(<Font 'Lucida Sans Unicode' (l_10646.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,776 - DEBUG - findfont: score(<Font 'Georgia' (georgia.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,776 - DEBUG - findfont: score(<Font 'Pristina' (PRISTINA.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,776 - DEBUG - findfont: score(<Font 'Proxy 6' (mtproxy6.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,776 - DEBUG - findfont: score(<Font 'Gadugi' (gadugib.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,776 - DEBUG - findfont: score(<Font 'Century Gothic' (GOTHICBI.TTF) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,776 - DEBUG - findfont: score(<Font 'Dutch801 Rm BT' (dutchbi.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,776 - DEBUG - findfont: score(<Font 'Dutch801 Rm BT' (dutchi.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,777 - DEBUG - findfont: score(<Font 'Verdana' (verdana.ttf) normal normal 400 normal>) = 3.6863636363636365
+2024-11-22 19:44:06,777 - DEBUG - findfont: score(<Font 'Trebuchet MS' (trebucit.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,777 - DEBUG - findfont: score(<Font 'STKaiti' (STKAITI.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,777 - DEBUG - findfont: score(<Font 'Palatino Linotype' (pala.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,777 - DEBUG - findfont: score(<Font 'Bradley Hand ITC' (BRADHITC.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,777 - DEBUG - findfont: score(<Font 'Candara' (Candaral.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,777 - DEBUG - findfont: score(<Font 'Century Gothic' (GOTHIC.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,777 - DEBUG - findfont: score(<Font 'EuroRoman' (eurr____.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,777 - DEBUG - findfont: score(<Font 'Constantia' (constani.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,777 - DEBUG - findfont: score(<Font 'Segoe Script' (segoescb.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,777 - DEBUG - findfont: score(<Font 'Microsoft PhagsPa' (phagspa.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,777 - DEBUG - findfont: score(<Font 'Swis721 Cn BT' (swisscbi.ttf) italic normal 700 condensed>) = 11.535
+2024-11-22 19:44:06,778 - DEBUG - findfont: score(<Font 'Segoe UI' (seguisb.ttf) normal normal 600 normal>) = 10.24
+2024-11-22 19:44:06,778 - DEBUG - findfont: score(<Font 'Monospac821 BT' (monosi.ttf) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,778 - DEBUG - findfont: score(<Font 'Consolas' (consolaz.ttf) italic normal 700 normal>) = 11.335
+2024-11-22 19:44:06,778 - DEBUG - findfont: score(<Font 'Font Awesome 5 Brands' (fontawesome5-brands-webfont.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,778 - DEBUG - findfont: score(<Font 'Trebuchet MS' (trebucbd.ttf) normal normal 700 normal>) = 10.335
+2024-11-22 19:44:06,778 - DEBUG - findfont: score(<Font 'Century' (CENTURY.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,778 - DEBUG - findfont: score(<Font 'Garamond' (GARAIT.TTF) italic normal 400 normal>) = 11.05
+2024-11-22 19:44:06,778 - DEBUG - findfont: score(<Font 'Ebrima' (ebrima.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,778 - DEBUG - findfont: score(<Font 'Verdana' (verdanai.ttf) italic normal 400 normal>) = 4.6863636363636365
+2024-11-22 19:44:06,778 - DEBUG - findfont: score(<Font 'FZYaoTi' (FZYTK.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,778 - DEBUG - findfont: score(<Font 'Myanmar Text' (mmrtext.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,778 - DEBUG - findfont: score(<Font 'Wingdings 3' (WINGDNG3.TTF) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,779 - DEBUG - findfont: score(<Font 'Proxy 7' (mtproxy7.ttf) normal normal 400 normal>) = 10.05
+2024-11-22 19:44:06,779 - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('d:\\anaconda\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2024-11-22 19:48:06,550 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:48:06,551 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:50:09,690 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:50:09,690 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:51:00,432 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:51:00,433 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:51:27,253 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:51:27,254 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-22 19:51:48,246 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-22 19:51:48,246 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-23 17:38:34,357 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-23 17:38:34,357 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-23 17:38:34,360 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-26 16:14:42,325 - DEBUG - Loaded backend qt5agg version unknown.
+2024-11-26 16:14:42,325 - DEBUG - Loaded backend Qt5Agg version unknown.
+2024-11-26 16:14:42,332 - DEBUG - Loaded backend qt5agg version unknown.

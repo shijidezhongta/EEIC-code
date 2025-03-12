@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="GPT">
+    <file>bolt_24dp_FFFFFF.svg</file>
+    <file>tips_and_updates_24dp_FFFFFF.svg</file>
+    <file>warning_24dp_FFFFFF.svg</file>
+    <file>delete_24dp_FFFFFF.svg</file>
+    <file>logout_24dp_FFFFFF.svg</file>
+    <file>smart_toy_24dp_FFFFFF.svg</file>
+    <file>account_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>language_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>input_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>question_answer_24dp_FFFFFF.svg</file>
+    <file>explore_24dp_FFFFFF.svg</file>
+    <file>home_24dp_FFFFFF.svg</file>
+    <file>house.svg</file>
+    <file>send.svg</file>
+    <file>globe.svg</file>
+    <file>chat-left-dots.svg</file>
+    <file>add_24dp_FFFFFF.svg</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>page_two</class>
+ <widget class="QWidget" name="page_two">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2107</width>
+    <height>1173</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel {
+    color: white;
+}
+
+#page_two{
+ background-color:#0F192A
+}
+
+QGraphicsView {
+    background: transparent;   /* 设置背景为透明 */
+    border: none;               /* 去除边框 */
+}
+
+</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="0">
+   <property name="spacing">
+    <number>15</number>
+   </property>
+   <property name="leftMargin">
+    <number>10</number>
+   </property>
+   <property name="topMargin">
+    <number>10</number>
+   </property>
+   <property name="rightMargin">
+    <number>10</number>
+   </property>
+   <property name="bottomMargin">
+    <number>10</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget_6" native="true">
+     <property name="styleSheet">
+      <string notr="true">QGroupBox {
+    font-family: &quot;SimSun&quot;;  /* 设置字体为宋体 */
+    font-size: 32px;       /* 设置字体大小为18px */
+    color:#00FFFF;            /* 设置字体颜色为 */
+	margin-top: 2.3ex;
+	border-top: 2px solid #00c6b7;         /* 隐藏上边框 */
+
+}
+QGroupBox::title
+{
+	subcontrol-origin:margin;
+	left: 10px;
+}</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QWidget" name="widget" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_12">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Maximum</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>60</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_2" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <property name="spacing">
+             <number>20</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_9">
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_5">
+                <item>
+                 <widget class="QPushButton" name="pushButton_part1">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+    background-color: #1D2B3A;      /* 深蓝色背景 */
+    color: white;                    /* 白色文字 */
+    border: 2px solid rgba(255, 255, 255, 0.5);  /* 半透明白色边框，边框变细 */
+    border-radius: 10px;             /* 圆角效果 */
+    padding: 10px 20px;              /* 内边距 */
+    font-size: 16px;                 /* 字体大小 */
+    font-weight: bold;               /* 加粗字体 */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+QPushButton:hover {
+    background-color: #4A5B73;       /* 悬停时背景变浅 */
+    border-color: rgba(255, 255, 255, 0.7);  /* 悬停时边框颜色稍微变深 */
+}
+
+QPushButton:pressed {
+    background-color: #2C3E50;       /* 按钮按下时背景变为深色 */
+    border-color: rgba(255, 255, 255, 0.7);  /* 按下时边框颜色 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);  /* 按下时添加阴影效果 */
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>微电网1</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_part2">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+    background-color: #1D2B3A;      /* 深蓝色背景 */
+    color: white;                    /* 白色文字 */
+    border: 2px solid rgba(255, 255, 255, 0.5);  /* 半透明白色边框，边框变细 */
+    border-radius: 10px;             /* 圆角效果 */
+    padding: 10px 20px;              /* 内边距 */
+    font-size: 16px;                 /* 字体大小 */
+    font-weight: bold;               /* 加粗字体 */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+QPushButton:hover {
+    background-color: #4A5B73;       /* 悬停时背景变浅 */
+    border-color: rgba(255, 255, 255, 0.7);  /* 悬停时边框颜色稍微变深 */
+}
+
+QPushButton:pressed {
+    background-color: #2C3E50;       /* 按钮按下时背景变为深色 */
+    border-color: rgba(255, 255, 255, 0.7);  /* 按下时边框颜色 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);  /* 按下时添加阴影效果 */
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>微电网2</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_2">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_part3">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+    background-color: #1D2B3A;      /* 深蓝色背景 */
+    color: white;                    /* 白色文字 */
+    border: 2px solid rgba(255, 255, 255, 0.5);  /* 半透明白色边框，边框变细 */
+    border-radius: 10px;             /* 圆角效果 */
+    padding: 10px 20px;              /* 内边距 */
+    font-size: 16px;                 /* 字体大小 */
+    font-weight: bold;               /* 加粗字体 */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+QPushButton:hover {
+    background-color: #4A5B73;       /* 悬停时背景变浅 */
+    border-color: rgba(255, 255, 255, 0.7);  /* 悬停时边框颜色稍微变深 */
+}
+
+QPushButton:pressed {
+    background-color: #2C3E50;       /* 按钮按下时背景变为深色 */
+    border-color: rgba(255, 255, 255, 0.7);  /* 按下时边框颜色 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);  /* 按下时添加阴影效果 */
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>微电网3</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_6">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_4">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+    background-color: #1D2B3A;      /* 深蓝色背景 */
+    color: white;                    /* 白色文字 */
+    border: 2px solid rgba(255, 255, 255, 0.5);  /* 半透明白色边框，边框变细 */
+    border-radius: 10px;             /* 圆角效果 */
+    padding: 10px 20px;              /* 内边距 */
+    font-size: 16px;                 /* 字体大小 */
+    font-weight: bold;               /* 加粗字体 */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+QPushButton:hover {
+    background-color: #4A5B73;       /* 悬停时背景变浅 */
+    border-color: rgba(255, 255, 255, 0.7);  /* 悬停时边框颜色稍微变深 */
+}
+
+QPushButton:pressed {
+    background-color: #2C3E50;       /* 按钮按下时背景变为深色 */
+    border-color: rgba(255, 255, 255, 0.7);  /* 按下时边框颜色 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);  /* 按下时添加阴影效果 */
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>···</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_3">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_3">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Maximum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item alignment="Qt::AlignLeft">
+               <widget class="QPushButton" name="pushButton_plot">
+                <property name="minimumSize">
+                 <size>
+                  <width>150</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton {
+    background-color: #1D2B3A;      /* 深蓝色背景 */
+    color: white;                    /* 白色文字 */
+    border: 2px solid rgba(255, 255, 255, 0.5);  /* 半透明白色边框，边框变细 */
+    border-radius: 10px;             /* 圆角效果 */
+    padding: 10px 20px;              /* 内边距 */
+    font-size: 16px;                 /* 字体大小 */
+    font-weight: bold;               /* 加粗字体 */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+QPushButton:hover {
+    background-color: #4A5B73;       /* 悬停时背景变浅 */
+    border-color: rgba(255, 255, 255, 0.7);  /* 悬停时边框颜色稍微变深 */
+}
+
+QPushButton:pressed {
+    background-color: #2C3E50;       /* 按钮按下时背景变为深色 */
+    border-color: rgba(255, 255, 255, 0.7);  /* 按下时边框颜色 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);  /* 按下时添加阴影效果 */
+}</string>
+                </property>
+                <property name="text">
+                 <string>开始绘图</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Maximum</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>80</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox">
+           <property name="minimumSize">
+            <size>
+             <width>1208</width>
+             <height>839</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QGroupBox {
+    font-family: &quot;SimSun&quot;;  /* 设置字体为宋体 */
+    font-size: 32px;       /* 设置字体大小为18px */
+    color:#00FFFF;            /* 设置字体颜色为 */
+	margin-top: 2.3ex;
+	border-top: 2px solid #00c6b7;         /* 隐藏上边框 */
+
+}
+QGroupBox::title
+{
+	subcontrol-origin:margin;
+	left: 10px;
+}</string>
+           </property>
+           <property name="title">
+            <string>源荷储整体出力情况</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_11">
+            <property name="topMargin">
+             <number>20</number>
+            </property>
+            <item>
+             <widget class="QWebEngineView" name="webEngineView_total">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>820</height>
+               </size>
+              </property>
+              <property name="url">
+               <url>
+                <string>about:blank</string>
+               </url>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_5" native="true">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>2000</width>
+                <height>4300</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">#widget_2 {
+    border: 1.5px solid #00c6b7;  /* 边框宽度为2px，边框颜色为#1D2B3A，边框类型为实线 */
+    border-radius: 10px;         /* 设置圆角效果 */
+}
+</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout">
+               <property name="spacing">
+                <number>20</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="sizeConstraint">
+                  <enum>QLayout::SetMinimumSize</enum>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <spacer name="horizontalSpacer_4">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>15</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_11">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>20</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>50</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>12</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>总成本:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QTextBrowser" name="textBrowser_out">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>20</width>
+                     <height>50</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>50</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Times New Roman</family>
+                     <pointsize>-1</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">#textBrowser_out {
+    border: 2px solid #DCDCDC; /* 淡白色边框 */
+    background-color: #1D2B3A; /* 背景色，适合深色主题 */
+    border-radius: 10px;         /* 设置圆角效果 */
+    color: white; /* 文字颜色为白色 */
+    font-weight: bold; /* 文字加粗 */
+    font-family: 'Times New Roman'; /* 字体为新罗马字体 */
+    font-size: 18px; /* 字体大小为 18px */
+}</string>
+                   </property>
+                   <property name="sizeAdjustPolicy">
+                    <enum>QAbstractScrollArea::AdjustToContentsOnFirstShow</enum>
+                   </property>
+                   <property name="lineWrapMode">
+                    <enum>QTextEdit::WidgetWidth</enum>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="styleSheet">
+         <string notr="true">#groupBox::title {
+    subcontrol-origin: margin;
+    left: 280%;                /* 将标题定位为左对齐 */
+
+    position: absolute;      /* 使标题绝对定位 */
+    width: 200%;             /* 设置标题宽度为100% */
+    margin-left: 0%;       /* 调整位置使其真正居中 */
+}</string>
+        </property>
+        <property name="title">
+         <string>各系统出力情况</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <property name="leftMargin">
+          <number>5</number>
+         </property>
+         <property name="topMargin">
+          <number>5</number>
+         </property>
+         <property name="rightMargin">
+          <number>5</number>
+         </property>
+         <property name="bottomMargin">
+          <number>5</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="widget_8" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_10">
+            <item>
+             <widget class="QGroupBox" name="groupBox_2">
+              <property name="title">
+               <string>太阳能</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_2">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QWebEngineView" name="webEngineView_pv">
+                 <property name="minimumSize">
+                  <size>
+                   <width>385</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="url">
+                  <url>
+                   <string>about:blank</string>
+                  </url>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QGroupBox" name="groupBox_Pgen">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">#widget_Pgen {
+	border: 1.5px solid #00c6b7;  /* 边框宽度为2px，边框颜色为#1D2B3A，边框类型为实线 */
+    border-radius: 10px;         /* 设置圆角效果 */
+}</string>
+              </property>
+              <property name="title">
+               <string>抽水蓄能</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_5">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>15</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QWebEngineView" name="webEngineView_Ppm">
+                 <property name="minimumSize">
+                  <size>
+                   <width>385</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="url">
+                  <url>
+                   <string>about:blank</string>
+                  </url>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QGroupBox" name="groupBox_bat">
+              <property name="styleSheet">
+               <string notr="true">#widget_bat {
+	border: 1.5px solid #00c6b7;  /* 边框宽度为2px，边框颜色为#1D2B3A，边框类型为实线 */
+    border-radius: 10px;         /* 设置圆角效果 */
+}</string>
+              </property>
+              <property name="title">
+               <string>电化学储能</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_6">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>15</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QWebEngineView" name="webEngineView_bat">
+                 <property name="url">
+                  <url>
+                   <string>about:blank</string>
+                  </url>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_7" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_8">
+            <item>
+             <widget class="QGroupBox" name="groupBox_3">
+              <property name="title">
+               <string>风能</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_7">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QWebEngineView" name="webEngineView_w">
+                 <property name="minimumSize">
+                  <size>
+                   <width>385</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="url">
+                  <url>
+                   <string>about:blank</string>
+                  </url>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QGroupBox" name="groupBox_H2">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">#widget_H2 {
+	border: 1.5px solid #00c6b7;  /* 边框宽度为2px，边框颜色为#1D2B3A，边框类型为实线 */
+    border-radius: 10px;         /* 设置圆角效果 */
+}</string>
+              </property>
+              <property name="title">
+               <string>氢储能</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_3">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>15</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QWebEngineView" name="webEngineView_H2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>385</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="url">
+                  <url>
+                   <string>about:blank</string>
+                  </url>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QGroupBox" name="groupBox_CAES">
+              <property name="styleSheet">
+               <string notr="true">#widget_CAES {
+	border: 1.5px solid #00c6b7;  /* 边框宽度为2px，边框颜色为#1D2B3A，边框类型为实线 */
+    border-radius: 10px;         /* 设置圆角效果 */
+}</string>
+              </property>
+              <property name="title">
+               <string>压缩空气储能</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_4">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>15</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QWebEngineView" name="webEngineView_CAES">
+                 <property name="minimumSize">
+                  <size>
+                   <width>385</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="url">
+                  <url>
+                   <string>about:blank</string>
+                  </url>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">QtWebEngineWidgets/QWebEngineView</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

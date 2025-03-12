@@ -1,0 +1,7 @@
+main函数运行软件
+Model_solving_cplex是模型求解函数，需要下载docplex和3.7版本的python
+page_one_drawing存放的是界面一绘图函数和绘制的图
+page_two_drawing存放的是界面二绘图函数和存放的图
+UI(py存放的是界面的py代码
+UI(ui存放的是界面的ui代码
+
